@@ -1,6 +1,6 @@
 1. Objetivo de la práctica 
 
-    El objetivo de la práctica es que el alumno se familiarice 
+    El objetivo de la práctica es que el alumno se familiarice con las herramientas a emplear a lo largo del curso y conozca sus características, ventajas y desventajas. 
 
 2. Tiempo requerido en realizar la práctica completa
 
