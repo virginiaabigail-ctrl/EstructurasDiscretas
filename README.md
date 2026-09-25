@@ -25,5 +25,8 @@ En este repositorio se subirán las prácticas a realizar a lo largo del primer 
             Proyectos
     
             README.md
+
+            
 Versión de ghc: The Glorious Glasgow Haskell Compilation System, version 9.10.3
+
 The GHCup Haskell installer, version v0.2.6.2
