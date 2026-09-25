@@ -6,24 +6,24 @@ En este repositorio se subirán las prácticas a realizar a lo largo del primer 
 
     Estructuras Discretas
 
-        Practica1
-
+            Practica1
+    
+                    README.md
+                    
+                    Practica1.md
+    
+            Practica2
+    
+            Practica3
+    
+            Practica4
+    
+            Practica5
+    
+            Practica6
+    
+            Proyectos
+    
             README.md
-            
-            Practica1.md
-
-        Practica2
-
-        Practica3
-
-        Practica4
-
-        Practica5
-
-        Practica6
-
-        Proyectos
-
-        README.md
 Versión de ghc: The Glorious Glasgow Haskell Compilation System, version 9.10.3
 The GHCup Haskell installer, version v0.2.6.2
