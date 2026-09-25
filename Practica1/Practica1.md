@@ -13,13 +13,18 @@
 
    Algunas desventajas de Haskell por las que no es tan empleado son sus limitaciones y dificultades al hacer las automatizaciones, las actualizaciones del compilador pueden introducir cambios en la sintaxis, las reglas de tipos y el comportamiento del lenguaje , su curva de aprendizaje, y por último el que esté basada en la programación funcional y en la evaluación perezosa, va en contra de la mayoría de los lenguajes de programación más populares. (Brutti, 2025)
 
-Las actualizaciones del compilador es su mayor desventaja, ya que  el código existente puede no ser compatible con las nuevas versiones del compilador, obligándote a modificar código manualmente para que pueda ejecutarse correctamente con la nueva versión. (Brutti, 2025)
+   Las actualizaciones del compilador es su mayor desventaja, ya que  el código existente puede no ser compatible con las nuevas versiones del compilador, obligándote a modificar código manualmente para que pueda ejecutarse correctamente con la nueva versión. (Brutti, 2025)
 
 
 4. Si tuvieras que explicarle a una persona que no es de CC la función que cumple Git frente a la de GitHub, ¿cómo se lo explicarías?
 
+   Por una parte Git es un software desde la computadora el cuál te permite monitorear los cambios que vas realizando a un proyecto o código de algún programa, y te permite volver a la versión que no le realizaste cambios. Todo esto realizado desde la computadora o terminal sin tener que accedder a un sitio web.
 
+   Github ya es un sitio web o plataforma en la que puedes colocar las carpetas que generas desde git, una vez que lo subes puedes agregar "colaboradores" para que más personas puedan tener acceso a este.
 
+   En pocas palabras en Git creas desde tu computadora las carpetas y archivos necesarios y desde github puedes compartirlo o tenerlo en el internet.
+
+   
 BIBLIOGRAFÍA
 
       Zelenskyi, J. (2023, 14 febrero). Rust vs. Haskell. Serokell. https://serokell.io/blog/rust-vs-haskell
