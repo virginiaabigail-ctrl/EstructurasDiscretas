@@ -1,6 +1,6 @@
 1. Objetivo de la práctica 
 
-    El objetivo de la práctica es que el alumno se familiarice con las herramientas y lenguajes a emplear a lo largo del curso de Estructuras Discretas, con el fin de saber las características de cada uno y tener en cuenta las ventajas y desventajas de utilizarlas.
+    El objetivo de la práctica es que el alumno se familiarice con las herramientas y lenguajes a emplear a lo largo del curso de Estructuras Discretas, con el fin de saber las características de cada uno y tener en cuenta las ventajas y desventajas al momento de utilizarlas.
 
 2. Tiempo requerido en realizar la práctica completa
 
