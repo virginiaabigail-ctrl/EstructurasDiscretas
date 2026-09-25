@@ -18,7 +18,7 @@
 
 4. Si tuvieras que explicarle a una persona que no es de CC la función que cumple Git frente a la de GitHub, ¿cómo se lo explicarías?
 
-   Por una parte Git es un software desde la computadora el cuál te permite monitorear los cambios que vas realizando a un proyecto o código de algún programa, y te permite volver a la versión que no le realizaste cambios. Todo esto realizado desde la computadora o terminal sin tener que accedder a un sitio web.
+   Por una parte Git es un software desde la computadora el cuál te permite monitorear los cambios que vas realizando a un proyecto o código de algún programa, y te permite volver a la versión que no le realizaste cambios. Todo esto realizado desde la computadora o terminal sin tener que acceder a un sitio web.
 
    Github ya es un sitio web o plataforma en la que puedes colocar las carpetas que generas desde git, una vez que lo subes puedes agregar "colaboradores" para que más personas puedan tener acceso a este.
 
