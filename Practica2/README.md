@@ -20,4 +20,6 @@ Promp realizado ( carga un archivo .hs utilizando ghci )
 ![Captura de terminal](./imagenEjercicio1)
 
 
-Captura terminal log
+## Captura terminal log
+
+![Captura de terminal log](./terminalLog)
