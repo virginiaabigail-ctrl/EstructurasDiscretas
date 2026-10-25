@@ -53,4 +53,49 @@ cetes vi (Meses n) =
               then montoFinal vi 0.0744 364
               else 0
 
+{- 
+Función auxiliar m
+Descripción: Recibe un monto inicial y un monto final y calcula la diferencia, que representa el rendimiento bruto
+Uso: m 50.50 50 = 0.50
+-}
+
+m :: Double -> Double -> Double
+m x y = x - y
+
+
+{- 
+Función mensajeCetes
+Descripción: Recibe un monto inicial y un plazo expresado en días o meses y devuelve un mensaje con el plazo, el rendimiento bruto
+y el monto total de la inversión
+Uso: mensajeCetes 100 ( Dias 28) -> "Despues de 28 dias, obtuve 0.47366666666665935 de rendimiento bruto sin asumir ningun riesgo crediticio. El monto total de mi inversion es 100.47366666666666"
+     mensajeCetes 100 (Meses 1) -> "Despues de 28 dias, obtuve 0.47366666666665935 de rendimiento bruto sin asumir ningun riesgo crediticio. El monto total de mi inversion es 100.47366666666666"
+-}
+
+mensajeCetes :: Double -> Plazo -> String
+
+mensajeCetes x (Dias n) =
+    "Despues de " ++ show (round n) ++
+    " dias, obtuve " ++
+    show (m (cetes x (Dias n)) x) ++
+    " de rendimiento bruto sin asumir ningun riesgo crediticio. " ++
+    "El monto total de mi inversion es " ++
+    show (cetes x (Dias n))
+
+mensajeCetes x (Meses n) =
+    "Despues de " ++ show (round n) ++
+    " meses, obtuve " ++
+    show (m (cetes x (Meses n)) x) ++
+    " de rendimiento bruto sin asumir ningun riesgo crediticio. " ++
+    "El monto total de mi inversion es " ++
+    show (cetes x (Meses n))
+
+
+{-
+Función negativos
+Descripción: Recibe una lista de enteros y devuelve un número que diga cuantos números negativos contiene la lista
+Uso: negativos [ -4, -2, 4 , 6 , -4] = 2
+-}
+
+negativos :: [Int] -> Int
+negativos list = sum [1 | x <- list, x < 0]
 
