@@ -1,4 +1,15 @@
 
+{-
+Comando:import EsParBin
+Descripción:Importa una función previamente ya definida en otro archivo para usarla en este archivo
+uso: En el inicio del código debe escribirse import NombredelArchivo(EsParBin) y ya se puede llamar
+-}
+
+import EsParBin (esParBin)
+
+
+
+
 {- 
 Tipo de dato Plazo
 Descripción: Indica si el plazo está expresado en días o meses
@@ -26,7 +37,7 @@ Uso: montoFinal 100 0.0609 28
 montoFinal :: Double -> Double -> Double -> Double
 montoFinal vi i t = vi * (1 + i * (t / 360.0))
 
-{- 
+{- Ejercicio 2
 Función cetes
 Descripción: Calcula el monto final de una inversión según el plazo en meses o días
 Uso: cetes 100 (Dias 28) -> 100.47366666666666
@@ -63,7 +74,7 @@ m :: Double -> Double -> Double
 m x y = x - y
 
 
-{- 
+{- Ejercicio 3
 Función mensajeCetes
 Descripción: Recibe un monto inicial y un plazo expresado en días o meses y devuelve un mensaje con el plazo, el rendimiento bruto
 y el monto total de la inversión
@@ -90,7 +101,7 @@ mensajeCetes x (Meses n) =
     show (cetes x (Meses n))
 
 
-{-
+{- Ejercicio 4
 Función negativos
 Descripción: Recibe una lista de enteros y devuelve un número que diga cuantos números negativos contiene la lista
 Uso: negativos [ -4, -2, 4 , 6 , -4] = -> 3
@@ -108,7 +119,7 @@ soloPares :: [Int] -> [Int]
 soloPares lista = [x | x <- lista, esParBin x]
 
 
-{- 
+{- Ejercicio 5
 Funcion primos
 Descripcion: Recibe una lista de enteros y devuelve solamente los numeros primos de la lista
 Uso: primos [1, 2, 3, 4, 5] -> [2,3,5]
@@ -133,10 +144,10 @@ mD n m =
          m `mod` x == 0]
 
 
-{- Funcion coprimos
-   Descripcion: Recibe un numero y devuelve sus coprimos
-   desde el 1 hasta el numero ingresado.
-   Uso: coprimos 10 = [1,3,7,9]
+{- Ejercicio 6
+Funcion coprimos
+Descripcion: Recibe un numero y devuelve sus coprimos desde el 1 hasta el numero ingresado.
+Uso: coprimos 10 = [1,3,7,9]
 -}
 
 coprimos :: Int -> [Int]
