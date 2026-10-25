@@ -3,7 +3,7 @@
 * ### Materia: Estructuras Discretas 
 * ### Alumno: Herrera Bárcena Virginia Abigail
 * ### Semestre: 2027 - 1
-* ### Tiempo requerido: 4 horas y media 
+* ### Tiempo requerido: 5 horas  
 
 ***
 
@@ -23,3 +23,8 @@
 
 ![Captura de terminal](./imagenEjercicio1.png)
 ![Captura de terminal](./imagen2Ejercicio1.png)
+
+## Ejercicio favorito
+
+#### Mi ejercicio favorito fue el de la fución cetes, al inicio me tardé mucho haciendolo pero ya cuando lefui entendiendo me fue gustando un poco más, fue un poco complejo pero sin duda fue el que más me ayudó para hacer los demás ejercicios
+
