@@ -93,9 +93,18 @@ mensajeCetes x (Meses n) =
 {-
 Función negativos
 Descripción: Recibe una lista de enteros y devuelve un número que diga cuantos números negativos contiene la lista
-Uso: negativos [ -4, -2, 4 , 6 , -4] = 2
+Uso: negativos [ -4, -2, 4 , 6 , -4] = -> 3
 -}
 
 negativos :: [Int] -> Int
 negativos list = sum [1 | x <- list, x < 0]
+
+{- Función soloPares
+Descripción: Recibe una lista de  enteros y devuelve una lista que contiene solo los números pares de la lista original
+Uso: soloPares [9, 7, 2,4] -> [2,4]
+-}
+
+soloPares :: [Int] -> [Int]
+soloPares lista = [x | x <- lista, x `mod` 2 == 0]
+
 
