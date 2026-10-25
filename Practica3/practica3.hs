@@ -105,6 +105,41 @@ Uso: soloPares [9, 7, 2,4] -> [2,4]
 -}
 
 soloPares :: [Int] -> [Int]
-soloPares lista = [x | x <- lista, x `mod` 2 == 0]
+soloPares lista = [x | x <- lista, esParBin x]
 
+
+{- 
+Funcion primos
+Descripcion: Recibe una lista de enteros y devuelve solamente los numeros primos de la lista
+Uso: primos [1, 2, 3, 4, 5] -> [2,3,5]
+-}
+
+primos :: [Int] -> [Int]
+primos lista =
+    [x | x <- lista,
+         x > 1,
+         [y | y <- [1..x], x `mod` y == 0] == [1,x]]
+
+
+{- Funcion auxiliar mD
+   Descripcion: Recibe dos numeros y devuelve una lista con todos los divisores que comparten.
+   Uso: mC 4 8 = [1,2,4]
+-}
+
+mD:: Int -> Int -> [Int]
+mD n m =
+    [x | x <- [1..n],
+         n `mod` x == 0,
+         m `mod` x == 0]
+
+
+{- Funcion coprimos
+   Descripcion: Recibe un numero y devuelve sus coprimos
+   desde el 1 hasta el numero ingresado.
+   Uso: coprimos 10 = [1,3,7,9]
+-}
+
+coprimos :: Int -> [Int]
+coprimos n =
+    [x | x <- [1..n], mCD x n == [1]]
 

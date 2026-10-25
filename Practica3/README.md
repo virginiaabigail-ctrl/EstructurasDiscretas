@@ -18,3 +18,8 @@
 #### ¿Cuál es la diferencia entre Num e Int?
 
 #### Num es una clase de tipos, las cuales tiene como instancias tipos de datos como Int, Integer, Float , Double, etc. Int es un tipo de dato que representa números enteros de tamaño limitado que depende de la implementación y de la arquitectura utilizada.
+
+#### Realiza un ejemplo en ghci, adjuntando una captura de pantalla.
+
+![Captura de terminal](./imagenEjercicio1.png)
+![Captura de terminal](./imagen2Ejercicio1.png)
