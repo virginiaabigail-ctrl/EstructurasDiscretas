@@ -1,7 +1,7 @@
 
 {-
 Comando:import EsParBin
-Descripción:Importa una función previamente ya definida en otro archivo para usarla en este archivo
+Descripción:Importa una función  definida en otro archivo para usarla en este archivo
 uso: En el inicio del código debe escribirse import NombredelArchivo(EsParBin) y ya se puede llamar
 -}
 
@@ -147,10 +147,10 @@ mD n m =
 {- Ejercicio 6
 Funcion coprimos
 Descripcion: Recibe un numero y devuelve sus coprimos desde el 1 hasta el numero ingresado.
-Uso: coprimos 10 = [1,3,7,9]
+Uso: coprimos 10->[1,3,7,9]
 -}
 
 coprimos :: Int -> [Int]
 coprimos n =
-    [x | x <- [1..n], mCD x n == [1]]
+    [x | x <- [1..n], mD x n == [1]]
 
