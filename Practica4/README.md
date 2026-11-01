@@ -31,3 +31,7 @@ Se tiene implementada para la función de restaEnt, ya que lo que hace es ver qu
 ### Si pudieras quedarte con una sola implementación. ¿Cuál sería? Justifica tu respuesta.
 
 Yo creo que me quedaría con la primera, principalmente por que están definidas todas las posibilidades de los casos bases en la suma y la resta, por lo que sería menos probable que haya un error al momento de ejecutarlo
+
+## Ejercicio favorito
+
+Mi ejercicio favorito en sí fueron todos los de la matrioskas, más que nada el de aplanar, ya que tuve que investigar un poco más a fondo sobre el cómo podía mantener justo las matrioskas contenidas en otras pero en forma de lista, creo que fue el que más se me complicó pero a su vez el que más me gustó.
